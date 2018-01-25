@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+}
+
+nav{
+  display: flex;
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(59, 89, 152);
+}
+
+#logo{
+  margin-top: 20px;
+  margin-left: 80px;
+  height: 80px;
+  width: 700px;
+  background-image: url("webimages/facebook-logo.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+nav ul{
+  display: flex;
+  height: 100px;
+  width: 700px;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+
+nav ul li{
+  margin-left: 50px;
+  display: inline;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+#main{
+  display:flex;
+  height: 1000px;
+  width: 100%;
+  background-color: black;
+}
+#photo_selection{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 800px;
+  width: 900px;
+  background-color: blue;
+}
+#sign_up_form{
+  height: 400px;
+  width: 400px;
+  background-color: red;
+}
+.a1{
+  margin-top: 100px;
+  display:inline-block;
+  height: 300px;
+  width: 400px;
+  background-color: yellow;
+}
+#a2{
+  display: flex;
+  height :inherit;
+  width: inherit;
+  background-image: url("WebDev17.1/Web Basic/webimages/user1.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
